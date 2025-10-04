@@ -100,7 +100,7 @@ mvp-web/
 │   │   └── styles.css
 │   ├── index.html
 │   ├── package.json
-
+```
 
 ---
 
