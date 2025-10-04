@@ -82,23 +82,24 @@ Por padrão:
 
 ## 📖 Estrutura do Projeto
 
+```text
 mvp-web/
 │
 ├── backend/
-│ ├── index.js # Servidor Express
-│ ├── lib/
-│ │ ├── gemini.js # Integração com API Gemini
-│ │ └── sheets.js # Integração com Google Sheets
-│ ├── .env.example # Exemplo de configuração de ambiente
-│ ├── package.json
+│   ├── index.js          # Servidor Express
+│   ├── lib/
+│   │   ├── gemini.js     # Integração com API Gemini
+│   │   └── sheets.js     # Integração com Google Sheets
+│   ├── .env.example      # Exemplo de configuração de ambiente
+│   ├── package.json
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── App.jsx # App principal (substitui App.js)
-│ │ ├── api.js # Chamadas ao backend
-│ │ └── styles.css
-│ ├── index.html
-│ ├── package.json
+│   ├── src/
+│   │   ├── App.jsx       # App principal (substitui App.js)
+│   │   ├── api.js        # Chamadas ao backend
+│   │   └── styles.css
+│   ├── index.html
+│   ├── package.json
 
 
 ---
